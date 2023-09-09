@@ -115,6 +115,10 @@ header {
   gap: var(--spacings-20);
 }
 
+.navbar__item {
+  text-transform: uppercase;
+}
+
 .navbar__link {
   font-size: var(--font-medium);
   padding: var(--spacings-8) var(--spacings-16);
@@ -150,6 +154,7 @@ header {
   padding: var(--spacings-8) var(--spacings-16);
   font-size: var(--font-medium);
   transition: background.3s ease-in-out;
+  text-transform: none;
 }
 
 .submenu__link:hover {
@@ -255,6 +260,7 @@ header {
   border-radius: 50px;
   padding: var(--spacings-16) var(--spacings-36);
   transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
 }
 
 .collection__link:hover {
@@ -339,6 +345,17 @@ header {
   font-weight: 700;
 }
 
+/* Footer */
+.footer {
+  padding: var(--spacings-68);
+}
+
+.footer__copy {
+  text-align: center;
+  margin-top: var(--spacings-36);
+}
+
+/* Animations */
 @keyframes fade {
   0% {
     opacity: 0;
