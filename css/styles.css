@@ -1,5 +1,7 @@
+/* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap");
 
+/* Variables */
 :root {
   /* Palette */
   --primary-red: #ff3333;
@@ -46,6 +48,7 @@
   --spacings-8: 0.8rem;
 }
 
+/* Tags */
 *,
 *::before,
 *::after {
@@ -57,12 +60,11 @@
 html {
   font-family: var(--main-font);
   font-size: 62.5%;
-  color: var(--dark-back);
+  color: var(--dark-background);
 }
 
 a {
   text-decoration: none;
-  font-size: 2em;
   color: inherit;
   font-family: inherit;
 }
@@ -71,6 +73,11 @@ header,
 footer {
   font-family: var(--secondary-font);
   color: var(--bright-font);
+  background-color: var(--dark-background);
+}
+
+header {
+  padding: var(--spacings-36);
 }
 
 ul,
@@ -83,7 +90,68 @@ p {
   font-size: 1.8em;
 }
 
+img {
+  width: 100%;
+}
+
+/* Classes */
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  max-width: 300px;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: var(--spacings-20);
+}
+
+.navbar__link {
+  font-size: var(--font-medium);
+  padding: var(--spacings-8) var(--spacings-16);
+  display: inline-block;
+  transition: background.3s ease-in-out;
+  position: relative;
+}
+
+.navbar__link:hover {
+  background-color: var(--red-900);
+}
+
+.with-icon {
+  display: flex;
+  align-items: center;
+  gap: var(--spacings-8);
+}
+
+.with-submenu:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  width: 300px;
+  position: absolute;
+  background-color: var(--dark-background);
+}
+
+.submenu__link {
+  display: block;
+  padding: var(--spacings-8) var(--spacings-16);
+  font-size: var(--font-medium);
+  transition: background.3s ease-in-out;
+}
+
+.submenu__link:hover {
+  background-color: var(--red-900);
 }
