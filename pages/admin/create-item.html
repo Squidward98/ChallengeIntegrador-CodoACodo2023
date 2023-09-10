@@ -44,88 +44,91 @@
     <main>
       <section class="container">
         <h2>Crear Nuevo Item</h2>
-        <form action="" method="POST"></form>
-        <div>
-          <label for="category">Categoría:</label>
-          <select name="category" id="cat">
-            <option value="seleccionar">Seleccionar</option>
-            <option value="fuko-pop">Funko Pop</option>
-            <option value="remera">Remera</option>
-            <option value="llavero">Llaver</option>
-          </select>
-          <label for="licence">Licencia:</label>
-          <select name="licence" id="cat">
-            <option value="seleccionar">Seleccionar</option>
-            <option value="harry-potter">Harry Potter</option>
-            <option value="pokemon">Pokemon</option>
-            <option value="star-wars">Star Wars</option>
-          </select>
-        </div>
-        <div>
-          <label for="item-name">Nombre del producto:</label>
-          <input
-            type="text"
-            id="new-item-name"
-            name="item-name"
-            placeholder="Kakashi Hatake Shippuden Saga"
-          />
-        </div>
-        <div>
-          <input
-            type="text"
-            id="new-item-description"
-            name="item-descriptio"
-            placeholder="Descripción del producto"
-          />
-        </div>
-        <div>
-          <label for="sku-item">SKU:</label>
-          <input
-            type="text"
-            id="nnew-sku-item"
-            name="sku-producto"
-            placeholder="SSK111AB001"
-          />
-          <label for="itme-price">Precio:</label>
-          <input
-            type="text"
-            id="new-item-price"
-            name="itme-price"
-            placeholder="$ 0.000,00"
-          />
-          <label for="item-stock">Stock:</label>
-          <input
-            type="text"
-            id="new-item-stock"
-            name="item-stock"
-            placeholder="0"
-          />
-        </div>
-        <div>
-          <label for="discount">Descuento:</label>
-          <input
-            type="text"
-            id="discount-item"
-            name="discount"
-            placeholder="0%"
-          />
-          <label for="cuotas">Cuotas:</label>
-          <!--nose que opciones van-->
-          <select name="fees" id="item-fees">
-            <option value="3">3 Cuotas sin interés</option>
-            <option value="6">6 Cuotas sin interés</option>
-            <option value="12">12 Cuotas sin interés</option>
-            <option value="24">24 Cuotas sin interés</option>
-          </select>
-        </div>
-        <div>
-          <label for="img-item">Imágenes:</label>
-          <input type="file" id="new-img-item" name="img-item" multiple />
-        </div>
-        <div>
-          <input type="submit" value="Agregar Producto" />
-          <input type="reset" value="Limpiar" />
-        </div>
+        <form action="" method="POST">
+          <div>
+            <label for="category">Categoría:</label>
+            <select name="category" id="cat">
+              <option value="seleccionar">Seleccionar</option>
+              <option value="fuko-pop">Funko Pop</option>
+              <option value="remera">Remera</option>
+              <option value="llavero">Llaver</option>
+            </select>
+            <label for="licence">Licencia:</label>
+            <select name="licence" id="cat">
+              <option value="seleccionar">Seleccionar</option>
+              <option value="harry-potter">Harry Potter</option>
+              <option value="naruto-shippuden">Naruto Shippuden</option>
+              <option value="pokemon">Pokemon</option>
+              <option value="star-wars">Star Wars</option>
+            </select>
+          </div>
+          <div>
+            <label for="item-name">Nombre del producto:</label>
+            <input
+              type="text"
+              id="new-item-name"
+              name="item-name"
+              placeholder="ejemplo - Kakashi Hatake Shippuden Saga"
+            />
+          </div>
+          <div>
+            <textarea
+              name="item-description"
+              id="new-item-description"
+              cols="48"
+              rows="5"
+              placeholder="Descripción del producto"
+            ></textarea>
+          </div>
+          <div>
+            <label for="sku-item">SKU:</label>
+            <input
+              type="text"
+              id="nnew-sku-item"
+              name="sku-producto"
+              placeholder="SSK111AB001"
+            />
+            <label for="itme-price">Precio:</label>
+            <input
+              type="text"
+              id="new-item-price"
+              name="itme-price"
+              placeholder="$ 0.000,00"
+            />
+            <label for="item-stock">Stock:</label>
+            <input
+              type="text"
+              id="new-item-stock"
+              name="item-stock"
+              placeholder="0"
+            />
+          </div>
+          <div>
+            <label for="discount">Descuento:</label>
+            <input
+              type="text"
+              id="discount-item"
+              name="discount"
+              placeholder="0%"
+            />
+            <label for="cuotas">Cuotas:</label>
+            <!--nose que opciones van-->
+            <select name="fees" id="item-fees">
+              <option value="3">3 Cuotas sin interés</option>
+              <option value="6">6 Cuotas sin interés</option>
+              <option value="12">12 Cuotas sin interés</option>
+              <option value="24">24 Cuotas sin interés</option>
+            </select>
+          </div>
+          <div>
+            <label for="img-item">Imágenes:</label>
+            <input type="file" id="new-img-item" name="img-item" multiple />
+          </div>
+          <div>
+            <input type="submit" value="Agregar Producto" />
+            <input type="reset" value="Limpiar" />
+          </div>
+        </form>
       </section>
     </main>
     <!-- AGREGAR ESTILOS AL MAIN ^^^^^^-->
