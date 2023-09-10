@@ -75,4 +75,5 @@ sencillo, rápido y escalable.
 - Optimizar el aside y agregar paginado del catálogo en _shop.html_.
 - Optimizar las tablas utilizando Grid, Flexbox o Boostrap (decidir cuás o cuáles herramientas usar).
 - Definir si las páginas adicionales (como los términos y condiciones, o la validación de usuario) se realizan mediante JavaScript.
+- Comenzar diseño responsive. 
 
