@@ -94,6 +94,12 @@ img {
   margin: 0 auto;
 }
 
+label {
+  font-size: var(--font-small);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 /* Header */
 header {
   padding: var(--spacings-36);
@@ -333,6 +339,8 @@ header {
 .card-item__name {
   font-size: var(--font-medium);
   font-weight: 700;
+  height: 4.4rem;
+  width: 20.7rem;
 }
 
 .card-item__price {
@@ -353,6 +361,81 @@ header {
 .footer__copy {
   text-align: center;
   margin-top: var(--spacings-36);
+}
+
+/* Shop Items & Form Layout */
+.shop__content {
+  display: flex;
+  padding: var(--spacings-68);
+  gap: var(--spacings-8);
+}
+
+/* form */
+.form-shop {
+  max-width: 250px;
+  padding-left: 5%;
+}
+
+.form-shop__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacings-8);
+}
+
+.form-shop__content-search,
+.form-shop__content-order,
+.form-shop__content-price,
+.form-shop__content-filter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacings-8);
+  margin-bottom: var(--spacings-8);
+}
+
+.form-shop__content-search input,
+.form-shop__content-order select,
+.form-shop__content-price input {
+  padding: 0.4em;
+  border-radius: 0.3em;
+  border-style: solid;
+  border-color: var(--dark-background);
+}
+
+.form-shop__content-price-options {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 2em;
+}
+
+.form-shop__content-price-options p {
+  font-size: 1em;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+}
+
+.form-shop__content-price-options input {
+  text-align: center;
+  width: 4em;
+}
+
+.form-shop__content-filter section {
+  padding-left: var(--spacings-8);
+  display: flex;
+  flex-direction: column;
+  text-size-adjust: var(--font-xsmall);
+}
+
+.form-shop__content-filter section label {
+  font-size: var(--font-xsmall);
+  padding-bottom: 0.5em;
+}
+
+/* Items */
+.itmes-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacings-12);
 }
 
 /* Animations */
