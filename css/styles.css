@@ -322,7 +322,7 @@ header {
   text-transform: uppercase;
 }
 
-/* Lastest Rekeases Slider */
+/* Lastest Releases Slider */
 .slider {
   display: flex;
   flex-direction: column;
@@ -412,14 +412,14 @@ header {
   margin-top: var(--spacings-36);
 }
 
-/* Shop Items & Form Layout */
+/* Shop Items & Form-shop Layout */
 .shop__content {
   display: flex;
   padding: var(--spacings-68);
   gap: var(--spacings-8);
 }
 
-/* form */
+/* Form-shop */
 .form-shop {
   max-width: 250px;
   padding-left: 5%;
@@ -485,6 +485,30 @@ header {
   display: flex;
   flex-direction: column;
   gap: var(--spacings-12);
+}
+
+/* Shopping Cart-page */
+
+.cart-collection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacings-24);
+  padding: var(--spacings-128) 0;
+}
+
+.cart-collection__title,
+.cart-collection__purchase-summary h2 {
+  font-family: var(--secondary-font);
+  font-size: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  /* MODIFICAR FORMA DE HACER EL UNDERLINE DE LOS TÍTULOS (H2) */
+  text-decoration: underline;
+  text-decoration-color: var(--primary-red);
+  /* width: 510px; MODIFICAR VALOR ABSOLUTO 
+  border-bottom: var(--primary-red) solid; */
+  /* MODIFICAR FORMA DE HACER EL UNDERLINE DE LOS TÍTULOS (H2) ^^^^^^ */
 }
 
 /* Animations */
