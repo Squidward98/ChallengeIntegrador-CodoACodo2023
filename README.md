@@ -1,11 +1,11 @@
 
 # ChallengeIntegrador-CodoACodo2023
 
-Comisión nro: 23573 
+## Comisión nro: 23573 
 
 Grupo nro 1.
 
-Integrantes:
+### Integrantes:
 
 - Adamo, Valeria Ximena. 
 - Ayala, Bárbara. 
@@ -50,7 +50,7 @@ herramientas:
 - MySQL y Gestores de BBDD
 - Sequelize
 
-Mission #1
+### Mission #1
 
 En esta primera etapa es importante comenzar a crear la estructura
 HTML de las diferentes vistas del proyecto, utilizando las etiquetas que
@@ -61,11 +61,18 @@ estructuras que hayas creado van a cambiar, por eso es recomendable
 en este momento invertir el tiempo en lograr estructuras que reflejen el
 diseño en un nivel generalizado.
 
-Mission #2
+### Mission #2
 
 Ahora que contamos con la estructura HTML del proyecto el próximo
 paso es comenzar a maquetar y estilar mediante CSS todos los
 elementos de cada página. Se deben normalizar los estilos y crear un sistema de
 diseño desde FIGMA a CSS para que el proceso de desarrollo sea más
 sencillo, rápido y escalable.
+
+### Tareas por hacer:
+- Crear HTML y CSS de _contact.html_.
+- Terminar CSS de: _admin.html_, _create-item.html_, _edit-item.html_, _login.html_, _sign-up.html_, _item.html_ y _shopping-cart.html_.
+- Optimizar el aside y agregar paginado del catálogo en _shop.html_.
+- Optimizar las tablas utilizando Grid, Flexbox o Boostrap (decidir cuás o cuáles herramientas usar).
+- Definir si las páginas adicionales (como los términos y condiciones, o la validación de usuario) se realizan mediante JavaScript.
 
