@@ -488,7 +488,6 @@ header {
 }
 
 /* Shopping Cart-page */
-
 .cart-collection {
   display: flex;
   flex-direction: column;
@@ -509,6 +508,21 @@ header {
   /* width: 510px; MODIFICAR VALOR ABSOLUTO 
   border-bottom: var(--primary-red) solid; */
   /* MODIFICAR FORMA DE HACER EL UNDERLINE DE LOS TÍTULOS (H2) ^^^^^^ */
+}
+
+/* Admin main */
+.collection {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding: var(--spacings-16) 0;
+}
+
+/* Icons */
+.edit__icon {
+  height: var(--spacings-24);
+  width: var(--spacings-24);
+  /* max-width: 300px; MODIFICAR VALOR ABSOLUTO */
 }
 
 /* Animations */
