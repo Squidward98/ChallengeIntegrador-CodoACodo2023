@@ -510,6 +510,98 @@ header {
   /* MODIFICAR FORMA DE HACER EL UNDERLINE DE LOS TÍTULOS (H2) ^^^^^^ */
 }
 
+/* Login-page */
+
+.login__title {
+  text-align: center;
+  font-size: var(--font-xlarge);
+  font-weight: 700;
+  margin: 1.5em;
+  text-transform: uppercase;
+}
+
+.email__container {
+  display: flex;
+  flex-direction: row;
+  gap: 10em;
+  padding: var(--spacings-16) 0;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.password__container {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  padding: var(--spacings-16) 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__email {
+  font-size: var(--font-large);
+  font-family: var(--secondary-font);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.text__password {
+  font-size: var(--font-large);
+  font-family: var(--secondary-font);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.input__email {
+  border: none;
+  border-bottom: 0.1em solid var(--primary-red);
+  outline: none; 
+  padding: 5px 0; 
+  font-family: var(--secondary-font);
+  font-size: var(--font-large); 
+}
+
+.input__password {
+  border: none;
+  border-bottom: 0.1em solid var(--primary-red);
+  outline: none; 
+  padding: 5px 0; 
+  font-family: var(--secondary-font);
+  font-size: var(--font-large);
+}
+
+.submit__container {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  padding: var(--spacings-16) 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.remember__container {
+  text-transform: capitalize;
+  margin: -0.9em;
+}
+
+.button__submit {
+  background-color: var(--primary-red); /* Color de fondo naranja */
+  color: white; /* Color de texto blanco */
+  padding: 10px 20px; /* Espaciado interno para el botón */
+  border: none; /* Quita el borde del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón (opcional) */
+}
+
+.forgot__container {
+  display: flex;
+  justify-content: center;
+  font-size: var(--font-xsmall);
+  color: var(--primary-blue);
+  margin: 1.4em;
+}
+
+
 /* Icons */
 .edit__icon {
   height: var(--spacings-24);
