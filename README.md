@@ -71,9 +71,9 @@ sencillo, rápido y escalable.
 
 ### Tareas por hacer:
 - Crear HTML y CSS de _contact.html_.
-- Terminar CSS de: _admin.html_, _create-item.html_, _edit-item.html_, _login.html_, _sign-up.html_, _item.html_ y _shopping-cart.html_.
+- Terminar CSS de: _admin.html_, _create-item.html_, _edit-item.html_, _sign-up.html_, _item.html_ y _shopping-cart.html_.
 - Optimizar el aside y agregar paginado del catálogo en _shop.html_.
-- Optimizar las tablas utilizando Grid, Flexbox o Boostrap (decidir cuás o cuáles herramientas usar).
+- Optimizar las tablas utilizando Grid o Flexbox (decidir cuál o cuáles herramientas usar).
 - Definir si las páginas adicionales (como los términos y condiciones, o la validación de usuario) se realizan mediante JavaScript.
 - Comenzar diseño responsive. 
 
