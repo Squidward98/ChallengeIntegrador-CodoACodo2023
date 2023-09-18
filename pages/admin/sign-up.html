@@ -42,13 +42,16 @@
     <!-- MAIN START -->
     <!-- AGREGAR ESTILOS AL MAIN -->
     <main>
-      <section signup__container>
+      <section class="signup__container">
         <h2 class="signup__title">Crea tu cuenta</h2>
-        <p class="signup__subtitle">Completa el formulario para ser parte del mundo de los Funkos</p>
+        <p class="signup__subtitle">
+          Completa el formulario para ser parte del mundo de los Funkos
+        </p>
         <form class="form__container" method="POST">
           <div class="name__container">
             <label class="text__input" for="name">Nombre:</label>
-            <input class="input__container"
+            <input
+              class="input__container"
               type="text"
               name="name"
               id="sign-up-name"
@@ -57,11 +60,18 @@
           </div>
           <div class="name__container">
             <label class="text__input" for="surname">Apellido:</label>
-            <input class="input__container" type="text" name="surname" id="surname" placeholder="Doe" />
+            <input
+              class="input__container"
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Doe"
+            />
           </div>
           <div class="email__container">
             <label class="text__input" for="email">Email:</label>
-            <input class="input__container"
+            <input
+              class="input__container"
               type="email"
               id="sign-up-email"
               placeholder="ejemplo@correo.com"
@@ -69,7 +79,8 @@
           </div>
           <div class="password__container">
             <label class="text__input" for="password">Contraseña:</label>
-            <input class="input__container"
+            <input
+              class="input__container"
               type="password"
               id="sig-up-pass"
               name="password"
@@ -80,7 +91,8 @@
           </div>
           <div class="rpassword__container">
             <label class="text__input" for="password">Repita Contraseña:</label>
-            <input class="input__container"
+            <input
+              class="input__container"
               type="password"
               id="sig-up-pass"
               name="password"
@@ -90,10 +102,18 @@
             />
           </div>
           <section class="register__container">
-          <input class="button__submit" type="submit" value="Registrar" />
-          <input class="remember__container" type="checkbox" name="aceptoTyC" id="aceptoTyC" />
-          <label class="terms__conditions" for="">Acepto <a class="blue__text" href="">Terminos y Condiciones</a> </label>
-          </section>>
+            <input class="button__submit" type="submit" value="Registrar" />
+            <input
+              class="remember__container"
+              type="checkbox"
+              name="aceptoTyC"
+              id="aceptoTyC"
+            />
+            <label class="terms__conditions" for=""
+              >Acepto <a class="blue__text" href="">Terminos y Condiciones</a>
+            </label>
+          </section>
+          >
           <!-- VER TÉRMINOS Y CONDICIONES -->
         </form>
       </section>
