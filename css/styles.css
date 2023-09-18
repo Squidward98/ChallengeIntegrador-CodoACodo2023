@@ -527,7 +527,6 @@ header {
   padding: var(--spacings-16) 0;
   justify-content: center;
   align-items: center;
-  
 }
 
 .password__container {
@@ -549,10 +548,10 @@ header {
 .input__container {
   border: none;
   border-bottom: 0.1em solid var(--primary-red);
-  outline: none; 
-  padding: 5px 0; 
+  outline: none;
+  padding: 5px 0;
   font-family: var(--secondary-font);
-  font-size: var(--font-large); 
+  font-size: var(--font-large);
 }
 
 .submit__container {
@@ -590,6 +589,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .signup__title {
@@ -597,7 +597,7 @@ header {
   font-size: var(--font-jumbo);
   text-transform: uppercase;
   font-weight: bold;
-  margin: 1em;
+  margin: 1em 1em 0.5em 1em;
   text-align: center;
 }
 
@@ -606,7 +606,7 @@ header {
   font-size: var(--font-xlarge);
   font-weight: 500;
   text-transform: lowercase;
-  margin: 1em auto;
+  margin: 0.5em auto 1em;
   text-align: center;
 }
 
