@@ -523,7 +523,7 @@ header {
 .email__container {
   display: flex;
   flex-direction: row;
-  gap: 10em;
+  gap: 16.5em;
   padding: var(--spacings-16) 0;
   justify-content: center;
   align-items: center;
@@ -533,42 +533,26 @@ header {
 .password__container {
   display: flex;
   flex-direction: row;
-  gap: 3em;
+  gap: 10em;
   padding: var(--spacings-16) 0;
   justify-content: center;
   align-items: center;
 }
 
-.text__email {
+.text__input {
   font-size: var(--font-large);
   font-family: var(--secondary-font);
   text-transform: capitalize;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-.text__password {
-  font-size: var(--font-large);
-  font-family: var(--secondary-font);
-  text-transform: capitalize;
-  font-weight: bold;
-}
-
-.input__email {
+.input__container {
   border: none;
   border-bottom: 0.1em solid var(--primary-red);
   outline: none; 
   padding: 5px 0; 
   font-family: var(--secondary-font);
   font-size: var(--font-large); 
-}
-
-.input__password {
-  border: none;
-  border-bottom: 0.1em solid var(--primary-red);
-  outline: none; 
-  padding: 5px 0; 
-  font-family: var(--secondary-font);
-  font-size: var(--font-large);
 }
 
 .submit__container {
@@ -601,6 +585,69 @@ header {
   margin: 1.4em;
 }
 
+/* SignUp-page */
+.signup__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup__title {
+  font-family: var(--secondary-font);
+  font-size: var(--font-jumbo);
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 1em;
+  text-align: center;
+}
+
+.signup__subtitle {
+  font-family: var(--secondary-font);
+  font-size: var(--font-xlarge);
+  font-weight: 500;
+  text-transform: lowercase;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.signup__subtitle::first-letter {
+  text-transform: capitalize;
+}
+
+.name__container {
+  display: flex;
+  flex-direction: row;
+  gap: 13em;
+  padding: var(--spacings-16) 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.rpassword__container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding: var(--spacings-16) 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.register__container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding: var(--spacings-16) 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms__conditions {
+  text-transform: capitalize;
+}
+
+.blue__text {
+  color: var(--primary-blue);
+}
 
 /* Icons */
 .edit__icon {
