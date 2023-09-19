@@ -9,7 +9,6 @@ Grupo nro 1.
 
 - Adamo, Valeria Ximena. 
 - Ayala, Bárbara. 
-- Cueto, Agustina Nerea.
 - De Maio, Julián Daniel.  
 - Nuñez, Federico Miguel Antonio.
 - Vigano, Juan Cruz. 
@@ -71,7 +70,7 @@ sencillo, rápido y escalable.
 
 ### Tareas por hacer:
 - Crear HTML y CSS de _contact.html_.
-- Terminar CSS de: _admin.html_, _create-item.html_, _edit-item.html_, _sign-up.html_, _item.html_ y _shopping-cart.html_.
+- Terminar CSS de: _admin.html_, _create-item.html_, _edit-item.html_, _item.html_ y _shopping-cart.html_.
 - Optimizar el aside y agregar paginado del catálogo en _shop.html_.
 - Optimizar las tablas utilizando Grid o Flexbox (decidir cuál o cuáles herramientas usar).
 - Definir si las páginas adicionales (como los términos y condiciones, o la validación de usuario) se realizan mediante JavaScript.
