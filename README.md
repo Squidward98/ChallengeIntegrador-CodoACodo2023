@@ -1,17 +1,16 @@
-
 # ChallengeIntegrador-CodoACodo2023
 
-## Comisión nro: 23573 
+## Comisión nro: 23573
 
 Grupo nro 1.
 
 ### Integrantes:
 
-- Adamo, Valeria Ximena. 
-- Ayala, Bárbara. 
-- De Maio, Julián Daniel.  
+- Adamo, Valeria Ximena.
+- Ayala, Bárbara.
+- De Maio, Julián Daniel.
+- Vigano, Juan Cruz.
 <!-- - Nuñez, Federico Miguel Antonio. -->
-- Vigano, Juan Cruz. 
 
 El objetivo de este proyecto es contar con un espacio autodidacta y
 auto gestionado que le permita al estudiante consolidar el proceso de
@@ -19,9 +18,9 @@ aprendizaje de los temas vistos a lo largo de la cursada a través de la
 práctica con un fin común y particular.
 
 Premisa del challenge: Como primer proyecto se ha asignado el desarrollo de una tienda en línea de las conocidas figuras coleccionables
-Funko Pop y merchandising adicional (como remeras, llaveros y mucho más). 
+Funko Pop y merchandising adicional (como remeras, llaveros y mucho más).
 
-El sitio consta de 2 partes fundamentales. 
+El sitio consta de 2 partes fundamentales.
 
 En primer lugar la tienda en
 línea donde los clientes podrán ver todos los productos disponibles,
@@ -37,6 +36,7 @@ cliente.
 
 Para lograr este objetivo deberásse deberá utilizar las siguientes tecnologías y
 herramientas:
+
 - FIGMA
 - HTML
 - CSS (Bootstrap es opcional)
@@ -68,10 +68,20 @@ elementos de cada página. Se deben normalizar los estilos y crear un sistema de
 diseño desde FIGMA a CSS para que el proceso de desarrollo sea más
 sencillo, rápido y escalable.
 
-### Tareas por hacer:
-- Crear HTML y CSS de _contact.html_.
-- Terminar CSS de: _admin.html_, _create-item.html_, _edit-item.html_ e _item.html_.
-- Optimizar el aside y agregar paginado del catálogo en _shop.html_.
-- Optimizar las tablas utilizando Grid o Flexbox (decidir cuál o cuáles herramientas usar).
-- Comenzar diseño responsive. 
+### Mission #3
 
+Para este mission tenemos dos retos a resolver: (1)Implementar el _slider_ en las páginas de home e ítem. (2) Darle funcionalidad a los botones de _+_ y _–_ en las páginas de ítem y
+carrito.
+
+Ahora que contamos con la estructura HTML del proyecto el próximo
+paso es comenzar a maquetar y estilar mediante CSS todos los
+elementos de cada página. Se deben normalizar los estilos y crear un sistema de
+diseño desde FIGMA a CSS para que el proceso de desarrollo sea más
+sencillo, rápido y escalable.
+
+### Tareas por hacer:
+
+- Crear HTML y CSS de _contact.html_, _password.html_ y _terms-and-conditions.html_ .
+- **Terminar de actualizar CSS de: _shop.html_ (Optimizar el aside y agregar paginado del catálogo en _shop.html_).**
+- **Comenzar diseño responsive.**
+- Comensar a programar en JavaScript (manejo del DOM).

@@ -77,19 +77,47 @@
           </p>
           <!-- MODIFICAR ESTILOS AQUÍ -->
           <p class="item-collection__price">$ 1799,99</p>
-          <form action="" method="POST" target="blank">
-            <input
-              type="number"
-              id="cantidad"
-              name="cantidad"
-              min="1"
-              max="10"
-              placeholder="0"
-            />
-          </form>
-          <button type="submit">Agregar al Carrito</button>
-          <a href="../../pages/shop/shopping-cart.html">Ver métodos de pago</a>
-          <p class="item-collection__promotion">3 cuotas sin interés</p>
+
+          <div class="item-flex-layout__buttons">
+            <div class="item-collection__input">
+              <div class="item-collection__input-number">
+                <input
+                  class="item-collection__input-number-count"
+                  type="number"
+                  name="add-more"
+                  value="0"
+                  min="0"
+                  id="quantity"
+                  readonly
+                />
+                <div class="item-collection__input-number-button">
+                  <button
+                    class="item-collection__input-number-button-control"
+                    id="add-product"
+                  >
+                    +
+                  </button>
+                  <button
+                    class="item-collection__input-number-button-control"
+                    id="less-product"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a class="item-resumen-button" href="./shopping-cart.html"
+              >Agregar al Carrito</a
+            >
+          </div>
+
+          <div class="item-flex-layout">
+            <a href="../../pages/shop/shopping-cart.html"
+              >Ver métodos de pago
+            </a>
+            <p class="item-collection__promotion">- 3 cuotas sin interés</p>
+          </div>
+
           <!-- MODIFICAR ESTILOS AQUÍ ^^^^^^ -->
         </article>
       </section>
